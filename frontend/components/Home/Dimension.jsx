@@ -1,5 +1,5 @@
 import Image from "next/image";
-import dimesion from "@/public/Assets/dimesion.png"; // your image
+import dimesion from "@/Assets/dimesion.png"; // your image
 
 export default function Dimensions() {
   return (

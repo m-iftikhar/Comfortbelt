@@ -1,5 +1,5 @@
 import Image from "next/image";
-import howitworks from "@/public/Assets/howitworks.png";
+import howitworks from "@/Assets/howitworks.png";
 
 export default function HowItWorks() {
   return (
@@ -16,7 +16,7 @@ export default function HowItWorks() {
         <div className="relative pl-6 sm:pl-10">
 
           {/* Vertical Line (hide on very small screens if needed) */}
-          <div className="absolute left-3 sm:left-5 top-0 bottom-0 w-[2px] bg-gray-300"></div>
+          <div className="absolute left-3 sm:left-5 top-0 bottom-0 w-0.5 bg-gray-300"></div>
 
           {/* Step 1 */}
           <div className="flex items-start gap-3 sm:gap-4 mb-8 sm:mb-12 relative">
